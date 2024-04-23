@@ -1,0 +1,11 @@
+Three most frequent weaknesses from Bandit report:
+
+1. Use of assert (Issue: [B101:assert_used] Use of assert detected. 
+		  The enclosed code will be removed when compiling to optimised byte code.
+   		  Severity: Low   Confidence: High)
+
+2. Blacklist (Issue: [B311:blacklist] Standard pseudo-random generators
+	      are not suitable for security/cryptographic purposes.)
+
+3. Subprocess call (Issue: [B603:subprocess_without_shell_equals_true] 
+		    subprocess call - check for execution of untrusted input.)
